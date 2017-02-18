@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_sut_system_domain_Payment" modelAttribute="payment" path="/payments" versionField="Version" z="43UgbdjNjhfpi9s56gUVY2TTB9k=">
+        <field:input field="price" id="c_sut_system_domain_Payment_price" required="true" z="XEjiB2a0URQx7ER48b32O53zXOc="/>
+    </form:update>
+</div>

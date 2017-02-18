@@ -1,0 +1,12 @@
+<aspectj>
+<aspects>
+<aspect name="sut.system.domain.Payment_Roo_JavaBean"/>
+<aspect name="sut.system.domain.Payment_Roo_ToString"/>
+<aspect name="sut.system.domain.Payment_Roo_Jpa_Entity"/>
+<aspect name="sut.system.domain.Payment_Roo_Configurable"/>
+<aspect name="sut.system.domain.Payment_Roo_Jpa_ActiveRecord"/>
+<aspect name="sut.system.domain.PaymentController_Roo_Controller"/>
+<aspect name="sut.system.domain.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+</aspects>
+</aspectj>
+
