@@ -2,8 +2,8 @@
 
   <jsp:output omit-xml-declaration="yes" />
 
-  <spring:theme code="styleSheet" var="roo_css" />
-  <spring:url value="/${roo_css}" var="roo_css_url" />
+  <!--<spring:theme code="styleSheet" var="roo_css" />-->
+  <!--<spring:url value="/${roo_css}" var="roo_css_url" />-->
   <spring:url value="/resources/dojo/dojo.js" var="dojo_url" />
   <spring:url value="/resources/dijit/themes/tundra/tundra.css" var="tundra_url" />
   <spring:url value="/resources/spring/Spring.js" var="spring_url" />
@@ -25,5 +25,41 @@
   <script src="${spring_url}" type="text/javascript"><!-- /required for FF3 and Opera --></script>
   <script src="${spring_dojo_url}" type="text/javascript"><!-- required for FF3 and Opera --></script>
   <script language="JavaScript" type="text/javascript">dojo.require("dojo.parser");</script>
+
+  <spring:url value="/resources/styles/bootstrap/css/bootstrap.css" var="bootstrap_css_url" />
+  <link rel="stylesheet" type="text/css" href="${bootstrap_css_url}" />
+
+  <spring:url value="/resources/styles/bootstrap/css/bootstrap.min.css" var="bootstrapmin_css_url" />
+  <link rel="stylesheet" type="text/css" href="${bootstrapmin_css_url}" />
+
+  <spring:url value="/resources/styles/bootstrap/css/bootstrap-theme.min.css" var="bootstrapthememin_css_url" />
+  <link rel="stylesheet" type="text/css" href="${bootstrapthememin_css_url}" />
+
+  <spring:url value="/resources/styles/bootstrap/css/plugins/metisMenu/metisMenu.min.css" var="metisMenu_css_url" />
+  <link rel="stylesheet" type="text/css" href="${metisMenu_css_url}" />
+
+  <spring:url value="/resources/styles/bootstrap/css/plugins/morris.css" var="morris_css_url" />
+  <link rel="stylesheet" type="text/css" href="${morris_css_url}" />
+
+  <spring:url value="/resources/styles/bootstrap/css/sb-admin-2.css" var="sbadmin2_css_url" />
+  <link rel="stylesheet" type="text/css" href="${sbadmin2_css_url}" />
+
+  <spring:url value="/resources/styles/bootstrap/css/plugins/timeline.css" var="timeline_css_url" />
+  <link rel="stylesheet" type="text/css" href="${timeline_css_url}" />
+
+  <spring:url value="/resources/styles/font-awesome-4.2.0/css/font-awesome.min.css" var="fontawesome_css_url" />
+  <link rel="stylesheet" type="text/css" href="${fontawesome_css_url}" />
+
+  <spring:url value="/resources/styles/sweetalert-master/lib/sweet-alert.css" var="sweet_css_url" />
+  <link rel="stylesheet" type="text/css" href="${sweet_css_url}" />
+
+  <spring:url value="/resources/scripts/jquery-2.1.1.min.js" var="jquery_js_url" />
+  <script src="${jquery_js_url}" type="text/javascript"><!-- required for FF3 and Opera --></script>
+
+  <spring:url value="/resources/scripts/bootstrap.min.js" var="bootstrap_js_url" />
+  <script src="${bootstrap_js_url}" type="text/javascript"><!-- required for FF3 and Opera --></script>
+
+  <spring:url value="/resources/styles/sweetalert-master/lib/sweet-alert.min.js" var="sweet_js_url" />
+  <script src="${sweet_js_url}" type="text/javascript"><!-- required for FF3 and Opera --></script>
 
 </jsp:root>

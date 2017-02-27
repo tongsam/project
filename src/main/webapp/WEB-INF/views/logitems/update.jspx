@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_sut_system_domain_LogItem" modelAttribute="logItem" path="/logitems" versionField="Version" z="Jw0BQGGv5rkldwKKZF9VzsPc2LM=">
+        <field:input field="message" id="c_sut_system_domain_LogItem_message" z="DkXjq5HWu+TWhvCubp4t6L3gc7Y="/>
+        <field:datetime dateTimePattern="${logItem_createdate_date_format}" field="createDate" id="c_sut_system_domain_LogItem_createDate" z="sR8VAhbr9kSp1yYbHPTuD9eBTPw="/>
+        <field:select field="logUser" id="c_sut_system_domain_LogItem_logUser" itemValue="id" items="${logusers}" path="/logusers" z="e5FKMDItEQe7UucuomXa0CwUz7g="/>
+    </form:update>
+</div>

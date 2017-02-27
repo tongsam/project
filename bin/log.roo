@@ -1,0 +1,8 @@
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log opened at 2017-02-18 00:24:19
+project --topLevelPackage sut.system --projectName mysql --java 6
+persistence setup --provider HIBERNATE --database MYSQL --userName MySQL --password 0870
+entity jpa --class ~.domain.Payment
+field string --fieldName price --notNull 
+controller all --package sut.system.domain
+exit
+// Spring Roo 1.3.2.RELEASE [rev 8387857] log closed at 2017-02-18 00:34:46

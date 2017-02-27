@@ -1,0 +1,13 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_sut_system_domain_LogUser" items="${logusers}" z="ZAxkfiNdUdrzCvhQtfe8W3tpIbA=">
+        <table:table data="${logusers}" id="l_sut_system_domain_LogUser" path="/logusers" z="V78alkYvOHXuhmi2kl8dgr0K6jQ=">
+            <table:column id="c_sut_system_domain_LogUser_username" property="username" z="l4QYWi/ujNp0PqvJWMCXiMrcAxM="/>
+            <table:column id="c_sut_system_domain_LogUser_password" property="password" z="JSySpckiWsp3hzVm+i9Bvzo73wY="/>
+            <table:column id="c_sut_system_domain_LogUser_enable" property="enable" z="axDHpUb7sF2xoSbrMXAPSRW86+k="/>
+            <table:column id="c_sut_system_domain_LogUser_roles" property="roles" z="29U+R8t1DKGETanUicV5YGuw6RA="/>
+        </table:table>
+    </page:list>
+</div>

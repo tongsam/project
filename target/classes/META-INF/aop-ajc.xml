@@ -1,12 +1,36 @@
 <aspectj>
 <aspects>
 <aspect name="sut.system.domain.Payment_Roo_JavaBean"/>
+<aspect name="sut.system.domain.LogUserRole_Roo_JavaBean"/>
+<aspect name="sut.system.web.LogUserController_Roo_Controller"/>
+<aspect name="sut.system.domain.LogUserRole_Roo_Jpa_ActiveRecord"/>
+<aspect name="sut.system.domain.LogUser_Roo_JavaBean"/>
+<aspect name="sut.system.domain.LogUser_Roo_Jpa_Entity"/>
+<aspect name="sut.system.domain.LogUser_Roo_Configurable"/>
+<aspect name="sut.system.web.LogUserRoleController_Roo_Controller"/>
+<aspect name="sut.system.domain.LogItem_Roo_ToString"/>
+<aspect name="sut.system.domain.LogItem_Roo_Jpa_Entity"/>
 <aspect name="sut.system.domain.Payment_Roo_ToString"/>
-<aspect name="sut.system.domain.Payment_Roo_Jpa_Entity"/>
-<aspect name="sut.system.domain.Payment_Roo_Configurable"/>
-<aspect name="sut.system.domain.Payment_Roo_Jpa_ActiveRecord"/>
+<aspect name="sut.system.domain.Electricity_Roo_Jpa_ActiveRecord"/>
+<aspect name="sut.system.domain.Electricity_Roo_JavaBean"/>
+<aspect name="sut.system.web.LogItemController_Roo_Controller"/>
 <aspect name="sut.system.domain.PaymentController_Roo_Controller"/>
 <aspect name="sut.system.domain.ApplicationConversionServiceFactoryBean_Roo_ConversionService"/>
+<aspect name="sut.system.domain.LogUserRole_Roo_Jpa_Entity"/>
+<aspect name="sut.system.domain.Payment_Roo_Jpa_Entity"/>
+<aspect name="sut.system.domain.LogUser_Roo_Jpa_ActiveRecord"/>
+<aspect name="sut.system.domain.Electricity_Roo_Jpa_Entity"/>
+<aspect name="sut.system.domain.Payment_Roo_Configurable"/>
+<aspect name="sut.system.domain.Electricity_Roo_ToString"/>
+<aspect name="sut.system.domain.LogUser_Roo_ToString"/>
+<aspect name="sut.system.web.ElectricityController_Roo_Controller"/>
+<aspect name="sut.system.domain.LogUserRole_Roo_Configurable"/>
+<aspect name="sut.system.domain.LogUserRole_Roo_ToString"/>
+<aspect name="sut.system.domain.LogItem_Roo_Jpa_ActiveRecord"/>
+<aspect name="sut.system.domain.LogItem_Roo_JavaBean"/>
+<aspect name="sut.system.domain.Payment_Roo_Jpa_ActiveRecord"/>
+<aspect name="sut.system.domain.LogItem_Roo_Configurable"/>
+<aspect name="sut.system.domain.Electricity_Roo_Configurable"/>
 </aspects>
 </aspectj>
 

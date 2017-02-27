@@ -15,5 +15,16 @@
     <put-attribute name="header" value="/WEB-INF/views/header.jspx" />
     <put-attribute name="footer" value="/WEB-INF/views/footer.jspx" />
   </definition>
+  
+  <definition name="tong" template="/WEB-INF/layouts/tong.jspx">
+    <put-attribute name="header" value="/WEB-INF/views/mainui/header.jspx" />
+    <put-attribute name="footer" value="/WEB-INF/views/mainui/footer.jspx" />
+  </definition>
+  
+  <definition name="tong1" template="/WEB-INF/layouts/tong1.jspx">
+    <put-attribute name="header" value="/WEB-INF/views/mainui/header.jspx" />
+    <put-attribute name="footer" value="/WEB-INF/views/mainui/footer.jspx" />
+  </definition>
+  
 
 </tiles-definitions>

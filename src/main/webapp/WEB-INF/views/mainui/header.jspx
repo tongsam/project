@@ -1,0 +1,19 @@
+<%--
+  Created by IntelliJ IDEA.
+  User: Mooxx
+  Date: 9/15/2016 AD
+  Time: 3:40 PM
+  To change this template use File | Settings | File Templates.
+--%>
+<div  xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:fn="http://java.sun.com/jsp/jstl/functions" xmlns:c="http://java.sun.com/jsp/jstl/core" xmlns:spring="http://www.springframework.org/tags" >
+<jsp:directive.page contentType="text/html;charset=UTF-8" />
+<jsp:output omit-xml-declaration="yes" />
+
+<nav class="navbar navbar-inverse navbar-static-top" role="navigation">
+    <div class="navbar-header">
+        <a class="navbar-brand" ><span class="glyphicon glyphicon-fire" aria-hidden="true"></span>Demo</a>
+    </div>
+
+
+</nav>
+</div>

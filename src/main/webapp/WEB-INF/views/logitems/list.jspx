@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" xmlns:table="urn:jsptagdir:/WEB-INF/tags/form/fields" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:list id="pl_sut_system_domain_LogItem" items="${logitems}" z="kJdYLP0UQ6pNK0ZPIwfyz8xCA8U=">
+        <table:table data="${logitems}" id="l_sut_system_domain_LogItem" path="/logitems" z="zAx5Q1nHc/84oQTcvEHXZJ+MGQc=">
+            <table:column id="c_sut_system_domain_LogItem_message" property="message" z="GoulhhbC3muf8HU9kriErh+zQ+Y="/>
+            <table:column date="true" dateTimePattern="${logItem_createdate_date_format}" id="c_sut_system_domain_LogItem_createDate" property="createDate" z="g3X+srSguwkNqW55zzm7QmWfIoI="/>
+            <table:column id="c_sut_system_domain_LogItem_logUser" property="logUser" z="W/+1H/3t4rp2yKTihOQnGZk2nqU="/>
+        </table:table>
+    </page:list>
+</div>

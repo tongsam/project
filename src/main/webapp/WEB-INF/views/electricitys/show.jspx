@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:jsp="http://java.sun.com/JSP/Page" xmlns:page="urn:jsptagdir:/WEB-INF/tags/form" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <page:show id="ps_sut_system_domain_Electricity" object="${electricity}" path="/electricitys" z="Qtf7vrqsBAX0TW+bA2RQDg/+iRw=">
+        <field:display field="months" id="s_sut_system_domain_Electricity_months" object="${electricity}" z="Jtbh+nVKpn0TVHXwF4W+3oj6vOs="/>
+        <field:display field="years" id="s_sut_system_domain_Electricity_years" object="${electricity}" z="wjxuaXrq8g/7b6giiQQwc1oDZmI="/>
+        <field:display field="price" id="s_sut_system_domain_Electricity_price" object="${electricity}" z="CMhDr7APJDiIhXRamnyT+C8EpSM="/>
+    </page:show>
+</div>

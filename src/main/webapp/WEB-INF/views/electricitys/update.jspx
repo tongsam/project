@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<div xmlns:field="urn:jsptagdir:/WEB-INF/tags/form/fields" xmlns:form="urn:jsptagdir:/WEB-INF/tags/form" xmlns:jsp="http://java.sun.com/JSP/Page" version="2.0">
+    <jsp:directive.page contentType="text/html;charset=UTF-8"/>
+    <jsp:output omit-xml-declaration="yes"/>
+    <form:update id="fu_sut_system_domain_Electricity" modelAttribute="electricity" path="/electricitys" versionField="Version" z="11EqsYidy1rf2rp9cWlcVfV3qK0=">
+        <field:input field="months" id="c_sut_system_domain_Electricity_months" z="vJBba1ttX3uUIC1x1caRyHdjwTA="/>
+        <field:input field="years" id="c_sut_system_domain_Electricity_years" z="npKz0nfRuYy9V6gAT2COUE2Ruto="/>
+        <field:input field="price" id="c_sut_system_domain_Electricity_price" z="mBLHefpRJQ1AC+j/EM0WG3vDhz0="/>
+    </form:update>
+</div>
